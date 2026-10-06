@@ -1,0 +1,26 @@
+{
+  "name": "previsao-tempo-obras",
+  "version": "1.0.0",
+  "description": "Monitoramento de chuva nas obras do Sistema Fiep com alertas automáticos em grupos do WhatsApp",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "simular": "node scripts/simular.js",
+    "relatorio-agora": "node scripts/relatorio-agora.js",
+    "monitorar-agora": "node scripts/monitorar-agora.js",
+    "listar-grupos": "node scripts/listar-grupos.js"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "node-cron": "4.6.0",
+    "pino": "10.3.1",
+    "qrcode-terminal": "0.12.0"
+  }
+}

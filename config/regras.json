@@ -1,0 +1,80 @@
+{
+  "chuva": {
+    "probabilidadeMinimaPct": null,
+    "precipitacaoMinimaMm": 1,
+    "codigosChuva": [
+      61,
+      63,
+      65,
+      66,
+      67,
+      80,
+      81,
+      82
+    ],
+    "chuvaForteMm": 5,
+    "codigosTempestade": [
+      95,
+      96,
+      99
+    ],
+    "chuvaModeradaMm": 2.5,
+    "codigosGaroa": [
+      51,
+      53,
+      55,
+      56,
+      57
+    ],
+    "garoaMaximaMm": 1
+  },
+  "horarioObra": {
+    "inicio": "06:00",
+    "fim": "19:00"
+  },
+  "diasOperacao": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "relatorioDiario": {
+    "horario": "07:00",
+    "validoAte": "18:00",
+    "resumoIncompletoApos": "08:00"
+  },
+  "monitoramento": {
+    "inicio": "07:00",
+    "fim": "18:00",
+    "intervaloMin": 15,
+    "antecedenciaAvisoMin": 60,
+    "ignorarAproximacaoAposRelatorioMin": 10,
+    "cooldownImprevistoMin": 120,
+    "avisarChuvaParou": false,
+    "imprevisto": {
+      "horizonteMin": 60,
+      "precipitacaoMinimaMmH": 5,
+      "toleranciaJanelaMin": 15,
+      "codigosChuva": [
+        65,
+        67,
+        82
+      ]
+    },
+    "ativo": false
+  },
+  "fila": {
+    "validadeImprevistoMin": 45,
+    "validadeChuvaParouMin": 30
+  },
+  "estado": {
+    "retencaoDias": 7
+  },
+  "modelos": [
+    "ukmo_seamless",
+    "best_match"
+  ]
+}

@@ -1,0 +1,9 @@
+node_modules/
+auth/
+state/
+logs/
+.env
+*.log
+auth-antiga-*/
+config/geral.json
+config/obras.json

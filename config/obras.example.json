@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cidade-a",
+    "nome": "Cidade A",
+    "unidades": 2,
+    "latitude": -25.4284,
+    "longitude": -49.2733,
+    "destinos": [],
+    "regiao": "Região Exemplo"
+  },
+  {
+    "id": "cidade-b",
+    "nome": "Cidade B",
+    "unidades": 1,
+    "latitude": -23.3103,
+    "longitude": -51.1628,
+    "destinos": [],
+    "regiao": "Região Exemplo"
+  }
+]
