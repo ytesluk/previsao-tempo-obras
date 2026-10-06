@@ -179,7 +179,7 @@ export function mensagemAproximacaoConsolidada({ itens, regras }) {
     const linha = `⏰ *${obra.nome}* — ${formatarHora(janela.inicioMin)} às ${formatarHora(janela.fimMin)} (${maiusculaInicial(rotulo)})`;
     return precisaEndereco(obra, itens) ? `${linha}\n_${obra.endereco}_` : linha;
   });
-  return ['*CHUVA EM 1 HORA*', '*UNIDADES SESI/SENAI:*', '', blocos.join('\n\n')].join('\n');
+  return ['*CHUVA EM 1 HORA*', '*UNIDADES:*', '', blocos.join('\n\n')].join('\n');
 }
 
 /** Um aviso só para todas as unidades com chuva fora do previsto. */
@@ -190,5 +190,5 @@ export function mensagemImprevistoConsolidada({ itens }) {
     const linha = `🚨 *${obra.nome}* — ${quando}`;
     return precisaEndereco(obra, itens) ? `${linha}\n_${obra.endereco}_` : linha;
   });
-  return ['*CHUVA NÃO PREVISTA*', '*UNIDADES SESI/SENAI:*', '', blocos.join('\n\n')].join('\n');
+  return ['*CHUVA NÃO PREVISTA*', '*UNIDADES:*', '', blocos.join('\n\n')].join('\n');
 }

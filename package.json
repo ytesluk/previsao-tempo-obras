@@ -1,7 +1,7 @@
 {
   "name": "previsao-tempo-obras",
   "version": "1.0.0",
-  "description": "Monitoramento de chuva nas obras do Sistema Fiep com alertas automáticos em grupos do WhatsApp",
+  "description": "Monitoramento de chuva por unidade com alertas automáticos em grupos do WhatsApp",
   "type": "module",
   "main": "src/index.js",
   "engines": {

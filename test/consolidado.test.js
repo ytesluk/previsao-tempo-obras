@@ -30,7 +30,7 @@ describe('textos consolidados', () => {
     });
     const linhas = m.split('\n');
     assert.equal(linhas[0], '*CHUVA EM 1 HORA*');
-    assert.equal(linhas[1], '*UNIDADES SESI/SENAI:*');
+    assert.equal(linhas[1], '*UNIDADES:*');
     assert.equal(linhas[3], '⏰ *Curitiba - CIC* — 14h às 16h (Chuva forte)');
     assert.equal(linhas[4], '_R. Accioly, 250_', 'Curitiba tem 2 unidades: mostra endereço');
     assert.equal(linhas.at(-1), '⏰ *Toledo* — 14h às 15h (Chuva fraca)', 'unidade única: sem endereço');

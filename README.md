@@ -1,6 +1,6 @@
 # previsao-tempo-obras
 
-Monitora o clima de cada obra do Sistema Fiep e avisa **automaticamente**, nos grupos comuns do WhatsApp, quando há risco de chuva. Ninguém precisa fazer nada.
+Monitora o clima de cada obra cadastrada e avisa **automaticamente**, nos grupos comuns do WhatsApp, quando há risco de chuva. Ninguém precisa fazer nada.
 
 **Custo zero:** previsão pelo [Open-Meteo](https://open-meteo.com/) (sem chave de API), WhatsApp pela biblioteca gratuita [Baileys](https://github.com/WhiskeySockets/Baileys), agendamento com `node-cron` dentro do próprio processo e execução contínua com PM2. Nenhum serviço pago.
 
